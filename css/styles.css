@@ -1,10 +1,8 @@
-
-:root
-    {
+:root {
     --main-bg-color: #2196f3;
     --background-color: #fff;
     --font-color: #212121;
-    }
+}
 
 body {
     background-color: var(--background-color);
@@ -13,106 +11,103 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    }
+}
 
-    .text-item:hover,
-    .text-item:focus {
+.text-item:hover,
+.text-item:focus {
     text-decoration: underline;
     color: var(--main-bg-color);
-    }
+}
 
+.about-item {
+    color: var(--font-color);
+    text-decoration: none;
+}
 
-    .about-item {
-      color: var(--font-color);
-      text-decoration: none;
-    }
+.link:hover {
+    color: var(--main-bg-color);
+}
 
-    .link:hover {
-      color: var(--main-bg-color);
+.link {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--main-bg-color);
+    list-style: none;
+    text-decoration: none;
+}
 
-    }
+.link.studio {
+    color: var(--font-color);
+}
 
-    .link {
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        color: var(--main-bg-color);
-        list-style: none;
-        text-decoration: none;
-    }
-    
-    .link.studio {
-        color: var(--font-color);
-    }
+.text-studio {
+    width: 49px;
+    height: 1.14;
+    left: 453px;
+    top: 32px;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
 
-    .text-studio {
-        width: 49px;
-        height: 1.14;
-        left: 453px;
-        top: 32px;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        color: var(--main-bg-color);
-        text-decoration: none;
-        }
+.text-item {
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    color: var(--font-color);
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+}
 
-        .text-item
-        {
-        width: 77px;
-        height: 16px;
-        left: 552px;
-        top: 32px;
-        color: var(--font-color)
-        text-decoration: none;
-        }
+.text-item-studio {
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
 
-        .mail {
-        width: 77px;
-        height: 16px;
-        left: 552px;
-        top: 32px;
-        color: var(--main-bg-color);
-        text-decoration: none;
-        }
+.mail {
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
 
-        .hero-list {
-        font-size: 44px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 1.36;
-        letter-spacing: 0.06em;
-        text-align: center;
-        }
+.hero-list {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
 
-        .list {
-            list-style: none;
-        }
+.list {
+    list-style: none;
+}
 
-/* Оглавлениe */
+.hero-btn {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: var(--main-bg-color);
+    box-shadow: 0px 4px 4px;
+    border-radius: 4px;
+    color: var(--background-color);
+}
 
-        .hero-btn {
-        width: 200px;
-        height: 50px;
-        left: 700px;
-        top: 430px;
-        background: var(--main-bg-color);
-        box-shadow: 0px 4px 4px;
-        border-radius: 4px;
-        color: var(--background-color);
-        }
-
-        .button-head {
-        background: var(--main-bg-color);
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-            0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-        }
-        .button-head,
-        .button-header,
-        .hero-btn
-         {
-           cursor: pointer;
-        }
-
-
-    
+.button-head {
+    background: var(--main-bg-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.button-head,
+.button-header,
+.hero-btn {
+    cursor: pointer;
+}
