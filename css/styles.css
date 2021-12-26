@@ -2,6 +2,7 @@
     --main-bg-color: #2196f3;
     --background-color: #fff;
     --font-color: #212121;
+    --item-color: #757575;
 }
 
 body {
@@ -15,7 +16,8 @@ body {
 
 /*--- Шапка ---*/
 
-.header-nav {
+.header-nav,
+.logotype-link {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -33,25 +35,26 @@ body {
     color: var(--font-color);
     text-decoration: none;
 }
+
 .text-item-studio {
     color: var(--main-bg-color);
     text-decoration: none;
 }
 
-.text-item  {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--font-color);
-text-decoration: none;
+.text-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    text-decoration: none;
 }
 
-
-.text-item:hover,
-.text-item:focus {
-    color: var(--main-bg-color);
-    text-decoration: underline;
+.logotype-link:hover,
+.text-item-studio:hover,
+.text-item:hover {
+    text-decoration: none;
+    border-bottom: 1px solid var(--main-bg-color);
 }
 
 .list {
@@ -63,16 +66,6 @@ text-decoration: none;
     list-style: none;
 }
 
-.hero {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
-
 .hero-list {
     font-weight: 900;
     font-size: 44px;
@@ -81,69 +74,67 @@ text-decoration: none;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
+}
 
-    .about-item {
-        color: var(--font-color);
-        text-decoration: none;
-    }
+.hero-about {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--font-color);
+}
 
-    .link:hover {
-        color: var(--main-bg-color);
-    }
+.hero-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+}
 
-    .link {
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        color: var(--main-bg-color);
-        list-style: none;
-        text-decoration: none;
-    }
+.section {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    letter-spacing: 0.03em;
+    color: var(--font-color);
+}
+.section-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--font-color);
+}
+.section-about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+}
 
-    .link.studio {
-        color: var(--font-color);
-    }
-
-    .text-studio {
-        width: 49px;
-        height: 1.14;
-        left: 453px;
-        top: 32px;
-        font-size: 14px;
-        letter-spacing: 0.02em;
-        color: var(--main-bg-color);
-        text-decoration: none;
-    }
-
-    .mail {
-        width: 77px;
-        height: 16px;
-        left: 552px;
-        top: 32px;
-        color: var(--main-bg-color);
-        text-decoration: none;
-    }
-
+.mail {
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
 
 .hero-btn {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background: var(--main-bg-color);
-    box-shadow: 0px 4px 4px;
-    border-radius: 4px;
     color: var(--background-color);
-}
-
-.button-head {
-    background: var(--main-bg-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-        0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
-.button-head,
-.button-header,
-.hero-btn {
+    background-color: var(--main-bg-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
