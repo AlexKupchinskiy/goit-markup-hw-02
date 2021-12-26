@@ -20,6 +20,38 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.logotype-link {
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+.logotype-link-studio {
+    color: var(--font-color);
+    text-decoration: none;
+}
+.text-item-studio {
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+.text-item  {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--font-color);
+text-decoration: none;
+}
+
+
+.text-item:hover,
+.text-item:focus {
+    color: var(--main-bg-color);
+    text-decoration: underline;
 }
 
 .list {
@@ -29,12 +61,6 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
-}
-
-.text-item:hover,
-.text-item:focus {
-    text-decoration: underline;
-    color: var(--main-bg-color);
 }
 
 .hero {
@@ -89,22 +115,6 @@ body {
         text-decoration: none;
     }
 
-    .text-item {
-        width: 77px;
-        height: 16px;
-        left: 552px;
-        top: 32px;
-        color: var(--font-color);
-        text-decoration: none;
-        font-family: Roboto, sans-serif;
-        font-style: normal;
-    }
-
-    .text-item-studio {
-        color: var(--main-bg-color);
-        text-decoration: none;
-    }
-
     .mail {
         width: 77px;
         height: 16px;
@@ -113,7 +123,7 @@ body {
         color: var(--main-bg-color);
         text-decoration: none;
     }
-}
+
 
 .hero-btn {
     width: 200px;
