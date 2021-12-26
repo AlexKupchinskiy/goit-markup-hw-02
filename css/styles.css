@@ -49,10 +49,20 @@ body {
     color: var(--font-color);
     text-decoration: none;
 }
+.text-item-about {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--font-color);
+    text-decoration: none;
+    color: var(--item-color);
+}
 
 .logotype-link:hover,
 .text-item-studio:hover,
-.text-item:hover {
+.text-item:hover,
+.text-item-about:hover {
     text-decoration: none;
     border-bottom: 1px solid var(--main-bg-color);
 }
@@ -64,6 +74,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
+    text-decoration: none;
 }
 
 .hero-list {
@@ -90,6 +101,24 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+}
+
+.about-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--font-color);
+    text-decoration: none;
+}
+.about-list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.58;
     letter-spacing: 0.03em;
     color: var(--item-color);
 }
