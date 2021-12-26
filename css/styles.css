@@ -13,80 +13,106 @@ body {
     letter-spacing: 0.03em;
 }
 
+/*--- Шапка ---*/
+
+.header-nav {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    list-style: none;
+}
+
 .text-item:hover,
 .text-item:focus {
     text-decoration: underline;
     color: var(--main-bg-color);
 }
 
-.about-item {
-    color: var(--font-color);
-    text-decoration: none;
-}
-
-.link:hover {
-    color: var(--main-bg-color);
-}
-
-.link {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--main-bg-color);
-    list-style: none;
-    text-decoration: none;
-}
-
-.link.studio {
-    color: var(--font-color);
-}
-
-.text-studio {
-    width: 49px;
-    height: 1.14;
-    left: 453px;
-    top: 32px;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: var(--main-bg-color);
-    text-decoration: none;
-}
-
-.text-item {
-    width: 77px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    color: var(--font-color);
-    text-decoration: none;
-    font-family: Roboto, sans-serif;
+.hero {
+    font-family: Roboto;
     font-style: normal;
-}
-
-.text-item-studio {
-    color: var(--main-bg-color);
-    text-decoration: none;
-}
-
-.mail {
-    width: 77px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    color: var(--main-bg-color);
-    text-decoration: none;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-list {
-    font-size: 44px;
     font-weight: 900;
+    font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 0.06em;
     text-align: center;
-}
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
 
-.list {
-    list-style: none;
+    .about-item {
+        color: var(--font-color);
+        text-decoration: none;
+    }
+
+    .link:hover {
+        color: var(--main-bg-color);
+    }
+
+    .link {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: var(--main-bg-color);
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .link.studio {
+        color: var(--font-color);
+    }
+
+    .text-studio {
+        width: 49px;
+        height: 1.14;
+        left: 453px;
+        top: 32px;
+        font-size: 14px;
+        letter-spacing: 0.02em;
+        color: var(--main-bg-color);
+        text-decoration: none;
+    }
+
+    .text-item {
+        width: 77px;
+        height: 16px;
+        left: 552px;
+        top: 32px;
+        color: var(--font-color);
+        text-decoration: none;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+    }
+
+    .text-item-studio {
+        color: var(--main-bg-color);
+        text-decoration: none;
+    }
+
+    .mail {
+        width: 77px;
+        height: 16px;
+        left: 552px;
+        top: 32px;
+        color: var(--main-bg-color);
+        text-decoration: none;
+    }
 }
 
 .hero-btn {
