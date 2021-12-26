@@ -138,3 +138,20 @@ body {
     letter-spacing: 0.06em;
     cursor: pointer;
 }
+
+.footer-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--item-color);
+}
+
+.footer-item:hover {
+    border-bottom: 1px solid var(--main-bg-color);
+}
+.footer-item {
+    color: var(--item-color);
+    text-decoration: none;
+}
