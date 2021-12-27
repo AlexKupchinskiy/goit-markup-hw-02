@@ -148,13 +148,20 @@ body {
     color: var(--item-color);
 }
 
-.mail {
-    width: 77px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
-    color: var(--main-bg-color);
-    text-decoration: none;
+.button-head {
+    color: var(--background-color);
+    background-color: var(--main-bg-color);
+    font-family: inherit;
+    width: 73px;
+    height: 38px;
+    left: 495px;
+    top: 174px;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-header {
 }
 
 .hero-btn {
@@ -165,6 +172,7 @@ body {
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    border-radius: 4px;
     cursor: pointer;
 }
 
