@@ -3,6 +3,8 @@
     --background-color: #fff;
     --font-color: #212121;
     --item-color: #757575;
+    --btn-color: #f5f4fa;
+    --footer-bg-color: #2f303a;
 }
 
 body {
@@ -152,16 +154,26 @@ body {
     color: var(--background-color);
     background-color: var(--main-bg-color);
     font-family: inherit;
-    width: 73px;
-    height: 38px;
-    left: 495px;
-    top: 174px;
-    letter-spacing: 0.06em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
     border-radius: 4px;
+    text-align: center;
     cursor: pointer;
 }
 
 .button-header {
+    color: var(--font-color);
+    background-color: var(--btn-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border-radius: 4px;
+}
+
+.button-head:hover,
+.button-header:hover {
+    border-bottom: 1px solid var(--main-bg-color);
 }
 
 .hero-btn {
@@ -185,10 +197,25 @@ body {
     color: var(--item-color);
 }
 
-.footer-item:hover {
+.footer-item:hover,
+.footer-item-about:hover {
     border-bottom: 1px solid var(--main-bg-color);
 }
+.footer-item-about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--background-color);
+    text-decoration: none;
+}
+
 .footer-item {
     color: var(--item-color);
     text-decoration: none;
+}
+
+.footer {
+    background-color: var(--footer-bg-color);
 }
