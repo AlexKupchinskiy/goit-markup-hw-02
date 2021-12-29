@@ -31,6 +31,7 @@ body {
 .logotype-link {
     color: var(--main-bg-color);
     text-decoration: none;
+    font-family: raleway;
 }
 
 .logotype-link-studio {
@@ -62,11 +63,20 @@ body {
 }
 
 .logotype-link:hover,
+.logotype-link:focus,
+.logotype-link-studio:hover,
+.logotype-link-studio:focus,
+.logotype-link-studio2:hover,
+.logotype-link-studio2:focus,
 .text-item-studio:hover,
 .text-item:hover,
-.text-item-about:hover {
+.text-item-about:hover,
+.footer-item:hover,
+.footer-item:focus,
+.footer-item-about:hover,
+.footer-item-about:focus {
     text-decoration: none;
-    border-bottom: 1px solid var(--main-bg-color);
+    color: var(--main-bg-color);
 }
 
 .list {
@@ -182,9 +192,10 @@ body {
     border-radius: 4px;
 }
 
-.button-head:hover,
-.button-header:hover {
-    border-bottom: 1px solid var(--main-bg-color);
+.button-header:hover,
+.button-header:focus {
+    color: var(--background-color);
+    background-color: var(--main-bg-color);
 }
 
 .hero-btn {
@@ -210,7 +221,6 @@ body {
 
 .footer-item:hover,
 .footer-item-about:hover {
-    border-bottom: 1px solid var(--main-bg-color);
 }
 .footer-item-about {
     font-style: normal;
